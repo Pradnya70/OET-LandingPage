@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color: #0047ab;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.header .cta-button {
+    padding: 10px 20px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Section Styles */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Left Content */
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Right Content */
+.right-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Course Features */
+.course-features {
+    background-color: #f9f9f9;
+}
+
+/* Timeline */
+.course-timeline {
+    background-color: #e0f7fa;
+}
+
+/* Testimonials */
+.testimonials {
+    background-color: #f0f0f0;
+}
+
+/* FAQ */
+.faq {
+    background-color: #e8eaf6;
+}
+
+/* FAQ Interactivity */
+.faq-answer {
+    display: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    .left-content,
+    .right-content {
+        padding: 10px;
+    }
+}
